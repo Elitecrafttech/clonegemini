@@ -3,6 +3,7 @@ import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/context'
 
+
 const Main = () => {
 
   const {onSent, recentPrompt, showResult, loading, resultData, setInput, input} = useContext(Context)
